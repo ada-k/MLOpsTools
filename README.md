@@ -41,7 +41,14 @@ Pros:**
 5. Pre packaged optimised deep learning docker containers are offered by EC2, SageMaker, EKS. (No need for further tuning).
 
 **Amazon EKS Set up  for ML pipelines:\**
+1. Log into your AWS environment.
+2. Create a kubernetes cluster on the EKS platform.
+3. 
+
+
 ![image](https://user-images.githubusercontent.com/50487929/183337804-77496431-333d-4b7b-b8d1-57ecd960601f.png)
+
+![image](https://user-images.githubusercontent.com/50487929/183338049-97001daf-5c6c-470a-962c-a605b5efce31.png)
 
 
 ## [MLFlow]()
