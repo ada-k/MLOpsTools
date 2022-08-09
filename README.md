@@ -31,6 +31,12 @@ MLOps tools, pipelines and frameworks for flexibility and scalability in ML work
 
 ![image](https://user-images.githubusercontent.com/50487929/183337684-f48dbb48-24de-4c3a-bfdb-ef9d0426c58f.png)
 
+**Local Setup \
+1. Install Minikube and Docker.
+2. Start an emulated kubernetes cluster.
+3. Install kubeflow.
+4. ...
+
 
 **Amazon EKS\
 Pros:**
@@ -41,10 +47,17 @@ Pros:**
 5. Pre packaged optimised deep learning docker containers are offered by EC2, SageMaker, EKS. (No need for further tuning).
 
 **Amazon EKS Set up  for ML pipelines:\**
-1. Log into your AWS environment.
-2. Create a kubernetes cluster on the EKS platform.
-3. Install kubeflow on top of the above (2) kubernetes installation.
-4. 
+1. Install `kubectl` locally.
+2. Install `AWS-CLI`.
+3. Configure the `aws-cli` to generate `config` and `credential` files.
+4. Install `eksctl`.
+5. Install the `aws-iam-authenticator`.
+6. Create an `EKS cluster` using `eksctl`.
+  6.1 Export environment variables: `cluster name, region, k8s version` and `EC2_instance type`.\
+7. Create a cluster config file for use with eksctl and confirm its creation.
+8. Install `kfctl`.
+
+
 
 
 ![image](https://user-images.githubusercontent.com/50487929/183337804-77496431-333d-4b7b-b8d1-57ecd960601f.png)
