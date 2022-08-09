@@ -43,7 +43,8 @@ Pros:**
 **Amazon EKS Set up  for ML pipelines:\**
 1. Log into your AWS environment.
 2. Create a kubernetes cluster on the EKS platform.
-3. 
+3. Install kubeflow on top of the above (2) kubernetes installation.
+4. 
 
 
 ![image](https://user-images.githubusercontent.com/50487929/183337804-77496431-333d-4b7b-b8d1-57ecd960601f.png)
