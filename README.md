@@ -23,7 +23,7 @@ MLOps tools, pipelines and frameworks for flexibility and scalability in ML work
   3.2 Logging.
 
 
-## [Kubeflow]()
+## [Kubeflow](kubeflow.sh)
 **Pros:**
 - Composability.
 - Portability.
@@ -31,7 +31,7 @@ MLOps tools, pipelines and frameworks for flexibility and scalability in ML work
 
 ![image](https://user-images.githubusercontent.com/50487929/183337684-f48dbb48-24de-4c3a-bfdb-ef9d0426c58f.png)
 
-**Local Setup \
+**Local Setup**
 1. Install Minikube and Docker.
 2. Start an emulated kubernetes cluster.
 3. Install kubeflow.
@@ -52,10 +52,11 @@ Pros:**
 3. Configure the `aws-cli` to generate `config` and `credential` files.
 4. Install `eksctl`.
 5. Install the `aws-iam-authenticator`.
-6. Create an `EKS cluster` using `eksctl`.
-  6.1 Export environment variables: `cluster name, region, k8s version` and `EC2_instance type`.\
+6. Create an `EKS cluster` using `eksctl`.\
+  6.1 Export environment variables: `cluster name, region, k8s version` and `EC2_instance type`.
 7. Create a cluster config file for use with eksctl and confirm its creation.
-8. Install `kfctl`.
+9. Install Kubeflow.
+10. Create a kubeflow project
 
 
 
